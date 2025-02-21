@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*Header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display:flex;
+    align-items: left;
+    z-index: 100;
+    background:url("brown.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 125vh;
+    background: url("bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.aboutme {
+    position: right;
+    width: 100%;
+    height: 75vh;
+    display: flex; 
+    padding: 30px 100px;
+}
+.skills{
+    position: left;
+    width: 100%;
+    display: flex; 
+    padding: 30px 100px; 
+}
+
+.certificates{
+    position: right;
+    width: 100%;
+    display: flex; 
+    padding: 30px 100px; 
+}
+.contact{
+    position:right;
+    width: 100%;
+    display: flex; 
+    padding: 30px 100px; 
+}
+
+
+.content1 {
+    max-width: 60%;
+    color: #555;
+    align-items: left;
+}
+.content2 {
+    max-width: 90%;
+    color: #555;
+    text-align: justify;
+}
+
+
+.content1 h2 {
+    font-size: 3em;
+    align-items: left;
+    font-family: 'Sacramento', cursive;
+    font-size: 120px;
+}
+
+.content1 p {
+    padding: 10px  40px ;
+    align-items: center;
+    font-size: 24px;
+}
+.h3 {
+    font-size: 3em;
+    align-items: left;
+    color: #a14c5cab;
+}
+
+/*about me*/
+.content2 h2 {
+    font-size: 3em;
+    align-items: right;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+}
+.content2 h4 {
+    font-size: 2em;
+    text-align: left;
+}
+
+
+.content3 {
+    max-width: 80%;
+    color: #555;
+    text-align:left;
+    font-size 2em;
+    align-items:flex-end;
+}
+.content3 h2 {
+    font-size: 3em;
+    align-items: right;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    max-width: 100%;
+}
+
+.content4 {
+    max-width: 30%;
+    color: #555;
+    text-align:justify;
+    font-size 2em;
+    align-items:flex-end;
+}
+
+
+button{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #a14c5cab;
+    border-radius: 10px;
+    border: 2px solid #a14c5c63 ;
+    padding:10px 15px;
+    font-weight: 500;
+    transition: .3s;
+    display: flex;
+   
+}
+
+.btn-group a {
+    color: #fff;
+    padding: 10px 40px;
+    background: #a14c5cab;
+    border-radius: 10px;
+    border: 2px solid #a14c5c63
+    font-weight: 500;
+    
+}
+.btn-group2 {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #a14c5cab;
+    border-radius: 10px;
+    border: 2px solid #a14c5c63
+    font-weight: 500;
+    transition: .3s;
+    display:flex;
+}
+
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background:url("brown.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+  }
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }

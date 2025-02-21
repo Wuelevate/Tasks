@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Deadline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-panel">
+            <h2>📝 Add New Task</h2>
+            <input type="text" id="taskName" placeholder="Task Name">
+            <textarea id="taskDesc" placeholder="Task Description"></textarea>
+            <label>Deadline:</label>
+            <input type="date" id="taskDate">
+            <input type="time" id="taskTime">
+            <button class="add-btn" onclick="addTask()">Add Task</button>
+        </div>
+        <div class="right-panel">
+            <h2>📌 Task List</h2>
+            <ul id="taskList" class="task-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
