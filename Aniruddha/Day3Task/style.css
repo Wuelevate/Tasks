@@ -1,0 +1,81 @@
+.container {
+    height: 45em;
+    width: 45em;
+    background-color: azure;
+    margin: 0.4em auto;
+    border: 0.1em solid black;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    height: 8em;
+    width: 8em;
+    margin: 0.4em 0 0 0;
+    background-color: red;
+    border: 0.1em solid black;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.item:nth-child(2n+1) {
+    background-color: greenyellow;
+}
+
+.item:nth-child(13) {
+    background-color: aqua;
+}
+
+.item:nth-child(12) {
+    background-color: rgb(0, 4, 237);
+}
+
+.item:nth-child(14) {
+    background-color: rgb(0, 4, 237);
+}
+
+#time {
+    margin: 0.3em 0;
+    text-align: center;
+}
+
+#count {
+    margin: 0.3em 0;
+    text-align: center;
+}
+.button {
+    height: 8em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    width: 6em;
+    height: 2em;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#increaseBtn {
+    background-color: #dc3545;
+}
+
+#decreaseBtn {
+    background-color: #28a745;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
