@@ -1,0 +1,130 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .left-panel, .right-panel {
+            flex: 1;
+            padding: 15px;
+        }
+
+        .left-panel {
+            border-right: 2px solid #ddd;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #007BFF;
+        }
+
+        .add-btn {
+            width: 100%;
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .add-btn:hover {
+            background: #0056b3;
+        }
+
+        .task-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .task {
+            background: #f8f9fa;
+            padding: 12px;
+            margin: 5px 0;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .task:hover {
+            background: #e9ecef;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+            background: #d4edda;
+        }
+
+        .task-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .complete-btn, .delete-btn {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .complete-btn {
+            background: #28a745;
+            color: white;
+            margin-right: 5px;
+        }
+
+        .complete-btn:hover {
+            background: #1d7b30;
+        }
+
+        .delete-btn {
+            background: #ff4d4d;
+            color: white;
+        }
+
+        .delete-btn:hover {
+            background: #cc0000;
+        }
+   
