@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 4 Task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>ToDo App</h1>
+    </div>
+    <div class="main">
+      <div class="inputBox">
+        Enter Details to add Your Task
+        <input
+          class="input name"
+          type="text"
+          placeholder="Enter Task Name"
+          name="name"
+          required
+        />
+        <input
+          class="input desc"
+          type="text"
+          placeholder="Enter Task Description"
+          name="desc"
+          required
+        />
+        <input
+          class="input time"
+          type="time"
+          name="time"
+          required
+        />
+        <button class="addTask" type="submit">Add Task</button>
+      </div>
+      <div class="outputBox">
+        Tasks Need to be Completed
+        <div class="tasks">
+          <p id="noTasks" class="hidden">To Do List is Empty, You have completed all tasks!</p>  
+          <div class="newTaskDiv"></div>
+        </div>
+        <button class="delAllBtn" disabled>Delete All Tasks</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
